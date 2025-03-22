@@ -40,7 +40,7 @@ def factorial(a):
     return fact
 
 def sine(a):
-    pass  # To be implemented by a team member
+    return math.sin(a)
 
 def cosine(a):
     pass  # To be implemented by a team member
@@ -86,6 +86,7 @@ def calculator():
 
     #8th function
     print(f"Factorial value of {a} is {factorial(a)}")
+    print(f"Sin value of {a} is {sine(a)}.")
     #14th function
     print(f"Absolute value of {a} is {absolute(a)}")
     #12th function
