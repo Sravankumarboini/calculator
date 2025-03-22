@@ -20,10 +20,12 @@ def divide(a, b):
 
 
 def modulus(a, b):
+    if b == 0:
+        return "Error: Division by zero is not allowed."
     return int(a % b)
 
 def power(a, b):
-    pass  # To be implemented by a team member
+    return a**b 
 
 def square_root(a):
     pass  # To be implemented by a team member
@@ -64,6 +66,9 @@ def calculator():
     print(f"Division of {a} and {b} is {divide(a,b)}")
     #5th function
     print(f"{a} % {b} is {modulus(a,b)}")
+    #6th function
+    print(f"{a} ** {b} is {power(a,b)}")
+
     #8th function
     print(f"Factorial value of {a} is {factorial(a)}")
     #14th function
