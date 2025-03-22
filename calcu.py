@@ -54,6 +54,8 @@ def absolute(a):
 def calculator():
     print("\nWelcome to the Team Calculator!")
     a, b = get_input()  # Taking input for `a` and `b`
+    #1st function
+    print(f"Addition of {a} and {b} is{add(a,b)}")
     print(f"Values received: a = {a}, b = {b}")
     #5th function
     print(f"{a} % {b} is {modulus(a,b)}")
