@@ -16,9 +16,7 @@ def multiply(a, b):
     pass  # To be implemented by a team member
 
 def divide(a, b):
-    try:
-        result = a / b
-        return result
+    return a/b
 
 
 def modulus(a, b):
