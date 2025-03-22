@@ -27,8 +27,11 @@ def modulus(a, b):
 def power(a, b):
     return a**b 
 
+
 def square_root(a):
-    pass  # To be implemented by a team member
+    if a < 0:
+        return "Error: Cannot compute square root of a negative number."
+    return math.sqrt(a)  
 
 def factorial(a):
     fact=1
@@ -71,6 +74,9 @@ def calculator():
     print(f"Modulus of {a} and {b} is {modulus(a,b)}")
     #6th function
     print(f"{a} ** {b} is {power(a,b)}")
+    #7th function
+    print(f" math.sqrt {a} is {square_root(a)}")
+    
 
     #8th function
     print(f"Factorial value of {a} is {factorial(a)}")
