@@ -62,13 +62,10 @@ def calculator():
     print("\nWelcome to the Team Calculator!")
     a, b = get_input()  # Taking input for `a` and `b`
     print(f"Values received: a = {a}, b = {b}")
-<<<<<<< HEAD
     #4th function
     print(f"Division of {a} and {b} is {divide(a,b)}")
-=======
     #5th function
     print(f"Factorial value of {a} is {factorial(a)}")
->>>>>>> dba34585ad27755b4c1318cc32e085963c5ac909
     #14th function
     print(f"Absolute value of {a} is {absolute(a)}")
     
