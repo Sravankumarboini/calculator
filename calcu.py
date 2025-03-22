@@ -35,7 +35,10 @@ def square_root(a):
     pass  # To be implemented by a team member
 
 def factorial(a):
-    pass  # To be implemented by a team member
+    fact=1
+    for i in range(int(a),1,-1):
+        fact*=i
+    return fact
 
 def sine(a):
     pass  # To be implemented by a team member
@@ -59,11 +62,16 @@ def calculator():
     print("\nWelcome to the Team Calculator!")
     a, b = get_input()  # Taking input for `a` and `b`
     print(f"Values received: a = {a}, b = {b}")
+<<<<<<< HEAD
     #4th function
     print(f"Division of {a} and {b} is {divide(a,b)}")
+=======
+    #5th function
+    print(f"Factorial value of {a} is {factorial(a)}")
+>>>>>>> dba34585ad27755b4c1318cc32e085963c5ac909
     #14th function
     print(f"Absolute value of {a} is {absolute(a)}")
-    absolute(a)
+    
 
 if __name__ == "__main__":
     calculator()
