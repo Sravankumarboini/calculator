@@ -7,7 +7,7 @@ def get_input():
     return a, b
 
 def add(a, b):
-    pass  # To be implemented by a team member
+    return a+b
 
 def subtract(a, b):
     pass  # To be implemented by a team member
