@@ -46,12 +46,16 @@ def exponent(a):
     pass  # To be implemented by a team member
 
 def absolute(a):
-    pass  # To be implemented by a team member
+    return abs(a)
 
 def calculator():
     print("\nWelcome to the Team Calculator!")
     a, b = get_input()  # Taking input for `a` and `b`
     print(f"Values received: a = {a}, b = {b}")
+    
+    #14th function
+    print(f"Absolute value of {a} is {absolute(a)}")
+    absolute(a)
 
 if __name__ == "__main__":
     calculator()
