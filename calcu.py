@@ -54,6 +54,9 @@ def exponent(a):
 def absolute(a):
     return abs(a)
 
+def gcd(a, b):
+    return math.gcd(int(a), int(b))  
+
 def calculator():
     print("\nWelcome to the Team Calculator!")
     a, b = get_input()  # Taking input for `a` and `b`
@@ -75,6 +78,9 @@ def calculator():
     print(f"Absolute value of {a} is {absolute(a)}")
     #12th function
     print(f"log_{b}({a}) =", logarithm(a, b))
+    #15th function
+    print(f"GCD of {a} and {b} is {gcd(a, b)}")
+
     
 
 if __name__ == "__main__":
