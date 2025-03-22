@@ -19,7 +19,7 @@ def divide(a, b):
     pass  # To be implemented by a team member
 
 def modulus(a, b):
-    pass  # To be implemented by a team member
+    return a % b
 
 def power(a, b):
     pass  # To be implemented by a team member
@@ -52,7 +52,10 @@ def calculator():
     print("\nWelcome to the Team Calculator!")
     a, b = get_input()  # Taking input for `a` and `b`
     print(f"Values received: a = {a}, b = {b}")
-    
+
+    #5th function
+    print(f"{a} % {b} is {modulus(a)}")
+
     #14th function
     print(f"Absolute value of {a} is {absolute(a)}")
     absolute(a)
