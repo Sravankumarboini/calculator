@@ -13,7 +13,7 @@ def subtract(a, b):
     return a-b
 
 def multiply(a, b):
-    pass  # To be implemented by a team member
+    return a*b
 
 def divide(a, b):
     return a/b
@@ -73,6 +73,8 @@ def calculator():
     #1st function
     print(f"Addition of {a} and {b} is {add(a,b)}")
     #2nd function
+    print(f"Multiplication of {a} and {b} is {multiply(a,b)}")
+    #3rd function
     print(f"Subtraction of {a} and {b} is {subtract(a,b)}")
     #4th function
     print(f"Division of {a} and {b} is {divide(a,b)}")
