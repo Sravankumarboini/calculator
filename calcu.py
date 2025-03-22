@@ -26,7 +26,7 @@ def divide(a, b):
 
 
 def modulus(a, b):
-    pass  # To be implemented by a team member
+    return int(a % b)
 
 def power(a, b):
     pass  # To be implemented by a team member
@@ -65,6 +65,8 @@ def calculator():
     #4th function
     print(f"Division of {a} and {b} is {divide(a,b)}")
     #5th function
+    print(f"{a} % {b} is {modulus(a,b)}")
+    #8th function
     print(f"Factorial value of {a} is {factorial(a)}")
     #14th function
     print(f"Absolute value of {a} is {absolute(a)}")
