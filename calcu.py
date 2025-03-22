@@ -10,7 +10,7 @@ def add(a, b):
     return a+b
 
 def subtract(a, b):
-    pass  # To be implemented by a team member
+    return a-b
 
 def multiply(a, b):
     pass  # To be implemented by a team member
@@ -61,9 +61,11 @@ def absolute(a):
 def calculator():
     print("\nWelcome to the Team Calculator!")
     a, b = get_input()  # Taking input for `a` and `b`
+    print(f"Values received: a = {a}, b = {b}")
     #1st function
     print(f"Addition of {a} and {b} is{add(a,b)}")
-    print(f"Values received: a = {a}, b = {b}")
+    #2nd function
+    print(f"Subtraction of {a} and {b} is{subtract(a,b)}")
     #4th function
     print(f"Division of {a} and {b} is {divide(a,b)}")
     #5th function
