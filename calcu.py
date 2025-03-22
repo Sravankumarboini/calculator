@@ -50,7 +50,7 @@ def tangent(a):
     pass  # To be implemented by a team member
 
 def logarithm(a, b):
-    pass  # To be implemented by a team member
+    return math.log(a, b)
 
 def exponent(a):
     pass  # To be implemented by a team member
@@ -74,6 +74,8 @@ def calculator():
     print(f"Factorial value of {a} is {factorial(a)}")
     #14th function
     print(f"Absolute value of {a} is {absolute(a)}")
+    #12th function
+    print(f"log_{b}({a}) =", logarithm(a, b))
     
 
 if __name__ == "__main__":
