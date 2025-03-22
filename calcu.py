@@ -59,13 +59,13 @@ def calculator():
     a, b = get_input()  # Taking input for `a` and `b`
     print(f"Values received: a = {a}, b = {b}")
     #1st function
-    print(f"Addition of {a} and {b} is{add(a,b)}")
+    print(f"Addition of {a} and {b} is {add(a,b)}")
     #2nd function
-    print(f"Subtraction of {a} and {b} is{subtract(a,b)}")
+    print(f"Subtraction of {a} and {b} is {subtract(a,b)}")
     #4th function
     print(f"Division of {a} and {b} is {divide(a,b)}")
     #5th function
-    print(f"{a} % {b} is {modulus(a,b)}")
+    print(f"Modulus of {a} and {b} is {modulus(a,b)}")
     #6th function
     print(f"{a} ** {b} is {power(a,b)}")
 
