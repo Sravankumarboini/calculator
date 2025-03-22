@@ -43,7 +43,7 @@ def sine(a):
     return math.sin(a)
 
 def cosine(a):
-    pass  # To be implemented by a team member
+    return math.cos(a)
 
 def tangent(a):
     pass  # To be implemented by a team member
@@ -86,7 +86,10 @@ def calculator():
 
     #8th function
     print(f"Factorial value of {a} is {factorial(a)}")
+    #9th function
     print(f"Sin value of {a} is {sine(a)}.")
+    #10th function
+    print(f"Cosine value of {a} is {cosine(a)}.")
     #14th function
     print(f"Absolute value of {a} is {absolute(a)}")
     #12th function
