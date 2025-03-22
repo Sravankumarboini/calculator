@@ -29,7 +29,7 @@ def square_root(a):
 
 def factorial(a):
     fact=1
-    for i in range(a,1,-1):
+    for i in range(int(a),1,-1):
         fact*=i
     return fact
 
@@ -59,8 +59,6 @@ def calculator():
     print(f"Factorial value of {a} is {factorial(a)}")
     #14th function
     print(f"Absolute value of {a} is {absolute(a)}")
-    #5th function
-    print(f"Factorial value of {a} is {factorial(a)}")
     
 
 if __name__ == "__main__":
