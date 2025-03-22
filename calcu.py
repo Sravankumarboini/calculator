@@ -60,6 +60,12 @@ def absolute(a):
 def gcd(a, b):
     return math.gcd(int(a), int(b))  
 
+def lcm(a,b):
+    a=int(a)
+    b=int(b)
+
+    return abs(a*b)//gcd(a,b)
+
 def calculator():
     print("\nWelcome to the Team Calculator!")
     a, b = get_input()  # Taking input for `a` and `b`
@@ -86,6 +92,8 @@ def calculator():
     print(f"log_{b}({a}) =", logarithm(a, b))
     #15th function
     print(f"GCD of {a} and {b} is {gcd(a, b)}")
+    #16th function
+    print(f"LCM of {a} and {b} is {lcm(a, b)}")
 
     
 
