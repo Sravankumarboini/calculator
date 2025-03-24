@@ -51,8 +51,8 @@ def tangent(a):
 def logarithm(a, b):
     return math.log(a, b)
 
-def exponent(a):
-    pass  # To be implemented by a team member
+def exponent(a,b):
+   return a**b
 
 def absolute(a):
     return abs(a)
@@ -98,6 +98,8 @@ def calculator():
     print(f"Absolute value of {a} is {absolute(a)}")
     #12th function
     print(f"log_{b}({a}) =", logarithm(a, b))
+    #13th function
+    print(f" exponent {a,b} is {exponent(a,b)}")
     #15th function
     print(f"GCD of {a} and {b} is {gcd(a, b)}")
     #16th function
